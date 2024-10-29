@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+main {
+    margin-top: 40px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(120, 114, 114);
+    font-size: larger;
+    
+   /*  overflow: hidden; */
+ 
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+}
+.nav ul li{
+    list-style-type: none;
+    margin: 0 25px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav ul li a:hover {
+    text-decoration:  none;
+    color: lavender;
+    font-size: 1.04rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 140px 0;
+    height: 90vh;
+   
+
+}
+.firstSection > div{
+    width: 40%;
+}
+.leftSection{
+    color: #f0d8d8;
+    font-size: 3rem;
+    margin: 70px 0  0 70px;
+
+}
+
+.rightSection img{
+    width: 60%;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+.rightSection{
+    margin-right: 20px;
+}
+.purple{
+    color:rgb(63, 91, 181);
+}
+#element {
+    color: rgb(100, 107, 199);
+}
+.hr{
+    
+    background: white;
+    width: 196vh;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+}
+.aboutSection{
+    margin-top: 140px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.intro{
+    display: flex;
+    
+    font-size: 1.7rem;
+}
+.text-pink{
+    color:#F672B0 ;
+    text-decoration: underline;
+    font-size: 2.4rem;
+}
+.about{
+    text-align: center;
+    color: #ECE5F0;
+    padding: 1rem;
+    position: relative;
+    font-size: 2.5rem;
+    font-weight: 520;
+    font-family: 'Poppins', sans-serif;
+}
+.details{
+   /*  margin-left: 140px; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+}
+.text-yellow{
+    color: rgb(191, 167, 44);
+}
+.blue{
+    color: #45d8f6;
+    
+}
+.text-gray{
+    color:#ECE5F0;
+}
+.colour{
+    color: #ff8fab;
+}
+
+.inner{
+    padding-top: 20px;
+    height: 90vh;
+    margin-top: 90px;
+}
+.header{
+    text-align: center;
+    color: #ECE5F0;
+    padding: 1rem;
+    position: relative;
+}
+.header:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 100px;
+    background-color: white ;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+}
+.skill-box{
+    padding: 1rem;
+    color: #45d8f6;
+    cursor: pointer;
+}
+
+.skill-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.img{
+    width: 160px;
+    height: 150px;
+    position: relative;
+    border-radius: 45px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-title h3{
+    
+    padding: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #F672B0;
+    font-size: 1.5rem;
+}
+
+.skill-icon{
+    width: 100px;
+}
+
+
+.project-container{
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.inner-project{
+    padding-top: 20px;
+    height: 190vh;
+    margin-top: 20px;
+}
+
+.image{
+    padding-left: 90px;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+.project-text{
+    font-size: 1.5rem;
+    padding-left: 90px;
+    padding-top: 20px;
+    margin-top: 20px;
+    
+   
+}
+.text-pink-project{
+    color:#F672B0 ;
+    /* text-decoration: underline; */
+    font-size: 1.5rem;
+}
+.text-yellow-project{
+    color: yellow;
+    font-size: 1.5rem;
+}
+.text-blue-project{
+    color: #45d8f6;
+    font-size: 1.5rem;
+}
+
+
+.inner-contact{
+    padding-top: 20px;
+    height: 50vh;
+    margin-top: 20px;
+    margin-left: 140px;
+    margin-right: 140px;
+    
+}
+.icons{
+    margin-left: 140px;
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+.icons a{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+  /* Mobile View */
+  @media screen and (min-width:250px) and (max-width:480px) {
+
+    /* Navigation */
+.nav{
+    flex-wrap: wrap;
+    position: fixed;
+}
+/*first section -home*/
+.firstSection{
+    flex-direction:row;
+}
+.firstSection > div{
+    width: 40%;
+}
+.rightSection img{
+    width: 60%;
+}
+#hr1{
+    width: 75%;
+    margin-top: 50%;
+}
+/* about section - about */
+.aboutSection{
+    width: 50%;
+}
+.details{
+    /* font-size: 0.5rem; */
+   
+    word-wrap:break-word;
+    
+}
+#hr2{
+    width: 75%;
+}
+
+/* skills section */
+    .inner{
+        align-items: center;
+    }
+    .skill-title{
+        align-items: center;
+    }
+    .container{
+        width: 50%;
+        align-items: center;
+      grid-template-columns: repeat(2,1fr);
+      margin-left: 50px;
+    }
+    #hr3{
+        margin-top: 115%;
+        width: 70%;
+    }
+    .header{
+         width: 75%;
+         align-items: center;
+    }
+    
+  }
+  /*project section*/
+  .project-container{
+    width: 50%;
+    word-wrap: break-word;
+    margin-left: 50px;
+  }
+  .inner-contact{
+    padding-top: 20px;
+    height: 40vh;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 140px;
+    margin-bottom: 20px;
+    
+}
+.icons{
+    margin-left: 40px;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    
+}
+
+   /* Tablet View */
+   @media screen and (min-width:481px) and (max-width:768px) {
+  
+
+/* skills section */
+
+    .container{
+      grid-template-columns: repeat(3,1fr);
+    }
+  }
+   /* Laptop View */
+   @media screen and (min-width:769px) and (max-width:1024px) {
+    /* Navigation */
+
+/*first section -home*/
+
+
+/* about section - about */
+
+/* skills section */
+
+    .container{
+      grid-template-columns: repeat(3,1fr);
+    }
+
+  }
